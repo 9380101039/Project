@@ -4,32 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quntnex</title>
+    <style>
+        body {
+            font-size: 25px;
+            background-image: url('https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_640.jpg');
+            background-size: cover; 
+            background-repeat: no-repeat;
+            text-align: center;
+        }
+    </style>    
 </head>
 <body>
     <h1>Enter Your Details</h1>
     <form>
         <label>Enter Name:</label><br>
-       <input type="text" name="firstname" placeholder="Enter your name"/><br>
+       <input type="text" name="name" placeholder="Enter your name"/><br>
+       
        <label>Gender:</label><br>
        <input type="radio" name="male"/>Male<br>
        <input type="radio" name="female"/>Female<br>
+       
        <label>PhoneNumber:</label><br>
        <input type="number" name="number" placeholder="Enter a phonenumber"/><br>
+       
        <label>Email:</label><br>
        <input type="email" name="email" placeholder="Enter a email"/><br>
+       
        <label>Password:</label><br>
        <input type="password" name="password" placeholder="Enter a password"/><br>
+       
        <label>Qualification</label>
        <select>
           <option value="B.E">B.E</option>
           <option value="B.Tech">B.Tech</option>
           <option value="BA">BA</option>
         </select><br>
+
+        <label>CGPA:</label><br>
+       <input type="number" name="number" placeholder="Enter a CGPA"/><br>
+        
         <label>Courses Offered</label><br>
         <a href="javaFullStack.html" target="_blank">*JavaFullStack</a><br>
         <a href="pythonFullStack.html" target="_blank">*PythonFullStack</a><br>
         <a href="automationTesting.html" target="_blank">*AutomationTesting</a><br>
-        <a href="enrol.html" target="_blank">*Enroll</a><br>
     </form>
 </body>
 </html>
