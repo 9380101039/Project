@@ -3,29 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enrol1</title>
+    <title>Enroll</title>
     <style>
-        h1{
-         text-align: center;
-        }
+       body{
+           background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYNuL2S2jV1JoJd3SMcB9U7XSME2JjTI-zQ&s');
+           background-size: cover; 
+           background-repeat: no-repeat;
+           background-size: cover;
+           font-size: 25px;
+           text-indent: 50px;
+           text-align: center;
+           text-decoration-color: rgb(0, 0, 0);
+       }
     </style>
 </head>
 <body>
-    <h1>enrol1</h1>
-    <p>Enrollment (American spelling) or enrolment (British spelling) may refer to:
+    <h1>enroll</h1>
+    <form>
+        <label>Enter Name:</label><br>
+       <input type="text" name="name" placeholder="Enter your name"/><br>
+       
+       <label>PhoneNumber:</label><br>
+       <input type="number" name="number" placeholder="Enter a phonenumber"/><br>
+       
+       <label>Email:</label><br>
+       <input type="email" name="email" placeholder="Enter a email"/><br>
+       
+      <label>Qualification</label>
+       <select>
+          <option value="B.E">B.E</option>
+          <option value="B.Tech">B.Tech</option>
+          <option value="BA">BA</option>
+        </select><br>
 
-    Matriculation, the process of initiating attendance to a school
-    The act of entering item into a roll or scroll.
-    The total number of students properly registered and/or attending classes at a school (see List of largest universities by enrollment)
-    Concurrent enrollment, the process in which high school students enrol at a university or college usually to attain college credit
-    The participation of human subjects in a clinical trial
-    Biometrics, the process of adding a user's credentials to the authentication system.
-    The process of being entered onto an electoral roll
-    Membership in a federally recognized American Indian tribe
-    The defensive curling of a trilobite over its soft ventral organs.
-    Volvation, the defensive curling of other arthropods such as pill bugs rolling themselves into a "pill".
-    Enrollment may also refer to:
-    
-    Enrolled bill, a legislative bill in the United States that has been enacted by a legislature</p>
+        <label>Courses</label>
+       <select>
+          <option value="JavaFullStack">JavaFullStack</option>
+          <option value="PythonFullStack">PythonFullStack</option>
+          <option value="Automation">AutomationTesting</option>
+        </select><br>
+
+        <label>CGPA:</label><br>
+       <input type="number" name="number" placeholder="Enter a CGPA"/><br>
+       <input type="submit" value="Submit">
+    </form>   
 </body>
 </html>
